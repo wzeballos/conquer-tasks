@@ -1,2 +1,2 @@
-# repo-example
-conquer class repo example
+# conquer-tasks
+conquer class tasks repo
