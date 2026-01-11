@@ -1,17 +1,108 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>headerbusiness</title>
+  <title>GlowQueen - Beauty & Skincare</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
   <script type="module" src="/src/main.js"></script>
 </head>
 
 <body>
   <div class="page">
 
+    <header class="main-header">
+      <div class="container">
+        <figure class="logo">
+          <img src="./img/logo_glow.jpg" alt="logo_glow" srcset="./img/logo_glow@2x.jpg 2x">
+        </figure>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">More</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <img src="./img/headbar.svg" alt="icons" class="head-icons">
+          <a href="#" class="btn-signin">Sign In</a>
+          <a href="#" class="btn-signup">Sign Up</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="container hero-grid">
+
+        <div class="hero-left">
+          <div class="h_content">
+            <h1>Bring back the beauty and glow of your skin</h1>
+            <p class="hero-description">
+              We provide you various treatments from head to toe using the best product, advanced technology, and
+              affordable price
+            </p>
+            <div class="hero-actions">
+              <a href="#" class="btn-primary">Book Now</a>
+              <a href="#" class="btn-video">
+                <img src="./img/button_play.svg" alt="button_play">
+                Watch Video
+              </a>
+            </div>
+          </div>
+
+          <section class="services-stats">
+            <div class="s_content">
+              <img src="./img/treatment.svg" alt="Treatment">
+              <div class="stat-text">
+                <span class="number">15+</span>
+                <p>Special Treatment</p>
+              </div>
+            </div>
+            <div class="s_content">
+              <img src="./img/therapist.svg" alt="Therapist">
+              <div class="stat-text">
+                <span class="number">25+</span>
+                <p>Professional Therapist</p>
+              </div>
+            </div>
+            <div class="s_content">
+              <img src="./img/formula.svg" alt="Formula">
+              <div class="stat-text">
+                <span class="number">100%</span>
+                <p>Herbal Cream Formula</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="hero-right">
+          <div class="visual-wrapper">
+            <img src="./img/simbol.svg" alt="Pattern Background" class="bg-pattern">
+
+            <div class="testimonial-card t-sophia">
+              <span class="quote">“</span>
+              <p>I have a regular schedule to take treatment from GlowQueen, they gave me the best service and treatment
+                ever to maintain the beauty and health of my skin</p>
+              <strong>Sophia Princeton</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-mid">
+          <img src="./img/hero_women.png" alt="hero_women" srcset="./img/hero_women@2x.png 2x">
+          <div class="testimonial-card t-tamara">
+            <span class="quote">“</span>
+            <p>For the past few years, I've had a hard time finding the right place for skin care to deal with my
+              complicated skin condition, thank God I found GlowQueen to treat my skin</p>
+            <strong>Tamara Jules</strong>
+          </div>
+        </div>
+      </div>
+    </main>
   </div>
 </body>
 
